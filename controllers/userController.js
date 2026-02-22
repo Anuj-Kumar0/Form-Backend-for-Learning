@@ -93,7 +93,7 @@ exports.usersDeletePost = (req, res) => {
   };
   
   exports.usersSearchGet = (req, res) => {
-    const { firstName, email, bio } = req.query;
+    const { firstName, email } = req.query;
 
     let users = [];
 
